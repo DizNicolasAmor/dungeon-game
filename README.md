@@ -6,7 +6,7 @@ https://github.com/DizNicolasAmor
 
 You can see this project here:
 
-* https://codepen.io/DizNicolasAmor/full/ZaWrJK
+* https://diznicolasamor.github.io/dungeon-game/
 
 The user can play a dungeon crawler game. Be free to use it and change it.
 

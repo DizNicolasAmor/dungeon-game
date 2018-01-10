@@ -15,7 +15,7 @@ class Stats extends React.Component {
         <h2>{!this.props.isGameOn ? this.props.result : '' }</h2>
 
         <h2>
-          <button class="btn btn-submit"
+          <button className="btn btn-submit"
               onClick={this.props.reset}>NEW GAME
           </button>
         </h2>

@@ -6,9 +6,10 @@ class Board extends React.Component {
     return (
       <div className="board">
 
-        {this.props.board.map( eachRow => (
-          eachRow.map( eachCell => (
-            <div className = {"cell " + eachCell}></div> 
+        {this.props.board.map( (eachRow, rowID) => (
+          eachRow.map( (eachCell, colID) => (
+            <div className = {"cell " + eachCell} 
+            key = {rowID + '-' + colID} ></div> 
           ))
         ))}
         
