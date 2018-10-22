@@ -1,0 +1,18 @@
+{
+    "extends": "@fizzmod/eslint-config",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "react/jsx-one-expression-per-line": [true, { "allow": "literal" }],
+        "import/no-named-as-default": 0,
+        "import/no-named-as-default-member": 0,
+        "linebreak-style": 0
+    }
+}
