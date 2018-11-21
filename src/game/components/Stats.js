@@ -2,6 +2,7 @@ import React from 'react';
 import Collapse from 'react-collapse';
 import PropTypes from 'prop-types';
 import {
+	GlobalStyle,
 	StatsContainer,
 	Title,
 	Button
@@ -18,6 +19,7 @@ const Stats = ({
 	reset
 }) => (
 	<div>
+		<GlobalStyle />
 		<StatsContainer>
 			<Title>Dungeon Game</Title>
 			<div className="data">
