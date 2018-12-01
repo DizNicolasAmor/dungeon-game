@@ -6,7 +6,7 @@ https://github.com/DizNicolasAmor
 
 You can see this project here:
 
-* https://diznicolasamor.github.io/dungeon-game/
+* http://dungeongame.herokuapp.com/
 
 The user can play a Dungeon Game. He can walk on the board, pick up weapons, potions, fight against enemies and advance to the next level.
 
