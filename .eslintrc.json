@@ -1,5 +1,5 @@
 {
-    "extends": "@fizzmod/eslint-config",
+    "extends": "eslint:recommended",
     "parser": "babel-eslint",
     "parserOptions": {
         "sourceType": "module",
