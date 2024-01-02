@@ -1,5 +1,5 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom';
 import GameContainer from './game/GameContainer';
 
 const container = document.getElementById('root');
